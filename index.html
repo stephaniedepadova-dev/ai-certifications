@@ -5,34 +5,77 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Certifications | Stephanie De Padova</title>
 <style>
+*{margin:0;padding:0;box-sizing:border-box}
 body{
-margin:0;font-family:Arial,sans-serif;
-background:linear-gradient(135deg,#0f172a,#2563eb);
-color:white;
-padding:30px;
+font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+background:linear-gradient(180deg,#0f172a,#1e40af);
+color:#fff;
+padding:20px 16px;
 }
-.container{max-width:1000px;margin:auto}
-h1{text-align:center}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.container{max-width:480px;margin:0 auto}
+h1{
+text-align:center;
+font-size:2rem;
+margin-bottom:8px;
+}
+.subtitle{
+text-align:center;
+opacity:.85;
+margin-bottom:24px;
+}
 .card{
-display:block;text-decoration:none;color:white;
+display:flex;
+align-items:center;
+gap:14px;
+text-decoration:none;
+color:#fff;
 background:rgba(255,255,255,.12);
-padding:25px;border-radius:20px;text-align:center;
+backdrop-filter:blur(10px);
+border-radius:18px;
+padding:18px;
+margin-bottom:14px;
+box-shadow:0 6px 18px rgba(0,0,0,.2);
 }
-.card:hover{transform:translateY(-4px)}
-.icon{font-size:2rem}
+.icon{font-size:1.8rem}
+.title{font-size:1.05rem;font-weight:600}
+.note{
+text-align:center;
+margin-top:20px;
+opacity:.75;
+font-size:.9rem;
+}
+@media (min-width:768px){
+.container{max-width:700px}
+.card:hover{transform:translateY(-2px)}
+}
 </style>
 </head>
 <body>
 <div class="container">
-<h1>🚀 AI Certifications Skills Alliance</h1>
-<div class="grid">
-<a href="AI_Generativa_page_1.jpg" target="_blank" class="card"><div class="icon">🤖</div><h3>AI Generativa</h3></a>
-<a href="AI_Produttivita_page_1.jpg" target="_blank" class="card"><div class="icon">⚡</div><h3>AI Produttiva</h3></a>
-<a href="Agenti_AI_page_1.jpg" target="_blank" class="card"><div class="icon">🧠</div><h3>Agenti AI</h3></a>
-<a href="Prompt_Efficaci_page_1.jpg" target="_blank" class="card"><div class="icon">✍️</div><h3>Prompt Efficaci</h3></a>
-<a href="Sicurezza_Etica_page_1.jpg" target="_blank" class="card"><div class="icon">🛡️</div><h3>Sicurezza & Etica</h3></a>
-</div>
+<h1>🚀 AI Certifications</h1>
+<p class="subtitle">Tap a certification to view the certificate</p>
+
+<a class="card" href="AI_Generativa_page_1.jpg" target="_blank">
+<span class="icon">🤖</span><span class="title">AI Generativa</span>
+</a>
+
+<a class="card" href="AI_Produttivita_page_1.jpg" target="_blank">
+<span class="icon">⚡</span><span class="title">AI Produttiva</span>
+</a>
+
+<a class="card" href="Agenti_AI_page_1.jpg" target="_blank">
+<span class="icon">🧠</span><span class="title">Agenti AI</span>
+</a>
+
+<a class="card" href="Prompt_Efficaci_page_1.jpg" target="_blank">
+<span class="icon">✍️</span><span class="title">Prompt Efficaci</span>
+</a>
+
+<a class="card" href="Sicurezza_Etica_page_1.jpg" target="_blank">
+<span class="icon">🛡️</span><span class="title">Sicurezza & Etica</span>
+</a>
+
+<p class="note">Stephanie De Padova</p>
 </div>
 </body>
 </html>
